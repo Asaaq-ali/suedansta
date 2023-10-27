@@ -4,13 +4,13 @@ error_reporting(0);
 
 ob_start();
 
-$bot_id = "1841312531"; // ايدي بوتك
+$bot_id = "6290895925"; // ايدي بوتك
 
-$admmm = "1116526399";
+$admmm = "6218149232";
 
 $tbbots = "ARLOUefg"; 
 
-$API_KEY = "1841312531:AAGPfauaZq2NiiRPrDBGagYbIa53eaPW4so";
+$API_KEY = "6290895925:AAE8f8GwQ5dYdWjOTgtUN5p87kPJKq0CqFs";
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $iBadlz = http_build_query($datas);
@@ -19,8 +19,8 @@ function bot($method,$datas=[]){
         return json_decode($iBadlz);
 }
 
-$Dev = array("$admmm","1116526399");// حط ايدي مطور ثاني بدل الاصفار
-@$channel = "cptsha8";
+$Dev = array("$admmm","6218149232");// حط ايدي مطور ثاني بدل الاصفار
+@$channel = "Mlze1bot";
 @$token = API_KEY;
 $buyy = "@$tbbots";
 
